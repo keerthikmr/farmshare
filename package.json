@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "deploy": "npm run build && gh-pages -d out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keerthikmr/farmshare.git"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
