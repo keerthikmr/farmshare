@@ -16,21 +16,21 @@ export default function TestimonialSection() {
     {
       name: "Rajesh Kumar",
       location: "Virudhunagar",
-      image: "/person_placeholder.jpeg?height=100&width=100",
+      image: "/th.jpeg?height=100&width=100",
       stars: 5,
       text: "I have some trouble with our tractor and we sometimes rent it out. FarmShare would be a good idea because somtimes, I can't find anyone to borrow the tools from.",
     },
     {
       name: "Muthu Rajan",
       location: "Watrap",
-      image: "/person_placeholder.jpeg?height=100&width=100",
+      image: "/tracktor_sales.jpeg?height=100&width=100",
       stars: 5,
       text: "Our farm has old equipments that we can rent out. FarmShare will be very useful for us to make some side profit.",
     },
     {
       name: "Suresh Reddy",
       location: "Tirunelveli",
-      image: "/person_placeholder.jpeg?height=100&width=100",
+      image: "/distribution_of_farms.jpg?height=100&width=100",
       stars: 4,
       text: "As long as the costs are reasonable, I would be happy to rent out my tractor. I have a lot of idle time and it would be nice to make some money.",
     },
@@ -102,7 +102,7 @@ export default function TestimonialSection() {
             <div className="flex flex-col items-center text-center">
               <div className="relative h-20 w-20 rounded-full overflow-hidden mb-4 border-4 border-green-100">
                 <Image
-                  src={testimonials[currentIndex].image || "/placeholder.svg"}
+                  src={testimonials[currentIndex].image}
                   alt={testimonials[currentIndex].name}
                   fill
                   className="object-cover"

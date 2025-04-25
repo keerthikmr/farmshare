@@ -79,7 +79,7 @@ export default function StatisticsPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-64 w-full">
                   <Image
-                    src={stat.url || "/placeholder.svg"}
+                    src={stat.url}
                     alt={stat.title}
                     fill
                     className="object-cover"
